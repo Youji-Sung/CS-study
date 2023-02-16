@@ -6,7 +6,7 @@
 
 > handshake는 웹 클라이언트와 서버 간에 신뢰성을 수립하는 과정
 
-`SSL 인증서`로 서버가 신뢰할 수 있는지 판단하기 위해 사용하는 `공개키 서명 방식`
+HTTPS에서 `SSL 인증서`로 서버가 신뢰할 수 있는지 판단하기 위해 사용하는 `공개키 서명 방식`
 
 
 
@@ -91,6 +91,15 @@ handshake의 클라이언트 부분이 끝남
 `대칭키`로 암호화된 HTTP 데이터를 주고 받는다
 
 
+
+
+
+
+
+[참고]
+
+- https://wangin9.tistory.com/entry/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90-URL-%EC%9E%85%EB%A0%A5-%ED%9B%84-%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94-%EC%9D%BC%EB%93%A4-5TLSSSL-Handshake
+- https://www.youtube.com/watch?v=sEkw8ZcxtFk
 
 
 
