@@ -209,12 +209,12 @@ EXEC select_by_name '은지원';
 
 ## 4_stored procedure의 단점
 
-**1) DB 확정 어려움**
+**1) DB 확장의 어려움**
 
 - 서비스 사용자가 많아짐 => 트래픽 증가 => 서버의 수를 증가
 - 하지만 stored procedure를 사용하면 그러한 DB의 수를 늘리는 것이 어려워 지고 DB교체는 더 힘들어진다. 
 
-- 따라서 트래픽의 부하를 DB에서 다 받기 때문에 분산해주지 못해 DB서버사 죽을 위험도 있다.
+- 따라서 트래픽의 부하를 DB에서 다 받기 때문에 분산해주지 못해 DB서버가 죽을 위험도 있다.
 
 
 
@@ -243,8 +243,14 @@ EXEC select_by_name '은지원';
 
 
 
+**stored procedure에 대한 여러가지 의견들**
+
 https://siahn95.tistory.com/entry/DBMSSQL-%EC%A0%80%EC%9E%A5-%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80Stored-Procedure%EB%9E%80
 
 > 여러 블로그와 커뮤니티의 글들을 보며 최근에는 저장 프로시저를 점점 줄여나가는 추세인 것을 알 수 있었다.
 >
 > 그래도 아예 쓰지 않는 것은 아니고, 적재적소에 사용할 줄 알아야 하는 것 같다.
+
+하지만 그래도 여전히 쓰이는 곳이 있을 것이라는 의견
+
+http://cloudinsight.net/data/stored-procedure%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8B%A8%EC%83%81/
